@@ -77,7 +77,7 @@ name: visao_geral
 <div style="text-align: justify">
 # VISÃO GERAL
 
-- A indústria do hidrogênio pode ser dividida em **4 partes**: 
+- Sem maior rigor, a indústria do hidrogênio pode ser dividida em **4 partes**:
 
   - **Transporte**: Parte mais dependente de insfraestrutura e, portanto, de 
   participação pública direta;
@@ -294,16 +294,16 @@ name: #perspectivas_futuras
 
 
 ---
-class: inverse, middle, center
+<div style="text-align: justify">
 
 
-# PERSPECTIVAS DE TRABALHOS FUTUROS
+# TRABALHOS FUTUROS
 
 
 - Avaliar o projeto da UNIFEI;
 
 
-- Mapear os mercados no Brasil e as respectivas viabilidades econômicas.
+- Mapear os mercados no Brasil e as respectivas viabilidades econômicas (Calculadora).
 
 
 ---
