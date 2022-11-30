@@ -217,12 +217,6 @@ widgetframe::frameWidget(lcoe_plot, width = '100%', height = '100%')
 
 ---
 class: inverse, middle, center
-name: estudo_caso
 
 
-# ESTUDO DE CASO
-
-
----
-<div style="text-align: justify">
-# ESTUDO DE CASO
+# MUITO OBRIGADO!
