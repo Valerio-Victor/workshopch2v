@@ -1,0 +1,72 @@
+---
+title: 'I WORKSHOP CH2V'
+subtitle: 'Pespectivas Econômicas para o Hidrogênio Verde'
+author: 'Prof. Dr. Victor Valerio'
+institute: 'UNIVERSIDADE FEDERAL DE ITAJUBÁ'
+date: 'Última Atualização: `r format(Sys.Date(),"%d-%m-%Y")`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+
+```{r, results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center'}
+
+
+library(xaringanExtra)
+library(xaringanthemer)
+
+
+style_mono_accent(base_color = "#1c5253",
+                  text_font_size = '30px',
+                  header_h1_font_size = '3rem',
+                  header_h2_font_size = '2rem',
+                  header_h3_font_size = '1.5rem')
+
+
+use_scribble()
+use_search(show_icon = TRUE)
+
+
+```
+
+
+class: inverse
+# APRESENTAÇÃO
+
+
+- [**.white[VISÃO GERAL]**](#visao_geral)
+
+
+- [**.white[MERCADO FOTOVOLTAICO NO BRASIL]**](#mercado_fotovoltaico_brasil)
+
+
+- [**.white[ASPECTOS REGULATÓRIOS]**](#aspectos_regulatorios)
+
+
+- [**.white[MATEMÁTICA FINANCEIRA]**](#matematica_financeira)
+
+
+- [**.white[ANÁLISE DE INVESTIMENTOS]**](#analise_investimento)
+
+
+- [**.white[ESTUDOS DE CASOS]**](#estudos_casos)
+
+
+---
+class: inverse, middle, center
+name: visao_geral
+
+
+# VISÃO GERAL
+
+
+---
+<div style="text-align: justify">
+# VISÃO GERAL
