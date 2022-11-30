@@ -49,9 +49,6 @@ class: inverse
 - [**.white[ANÁLISE DE COMPETITIVIDADE]**](#analise_competitividade)
 
 
-- [**.white[ESTUDO DE CASO - UNIFEI]**](#estudo_caso)
-
-
 ---
 class: inverse, middle, center
 name: visao_geral
@@ -88,9 +85,61 @@ name: visao_geral
   demais aplicações representam 8% (produção de energia).
   
   
+---
+<div style="text-align: justify">
+# VISÃO GERAL
   
-  
+```{r importacao_dados, results = 'hide', echo = F, warning = F, message = F, error = F}
 
+# Carregando Pacotes Necessários:
+library(bibliometrix)
+library(magrittr)
+library(ggplot2)
+
+# Importação dos Dados (Web of Science):
+dados_wos <- convert2df(
+  file = list.files(path = '../dados', pattern = 'wos', full.names = TRUE),
+  dbsource = 'wos',
+  format = 'plaintext')
+
+# Importação dos Dados (Scopus):
+dados_scopus <- convert2df(
+  file = list.files(path = '../dados', pattern = 'scopus', full.names = TRUE),
+  dbsource = 'scopus',
+  format = 'bibtex')
+
+# Consolidação dos Dados (Web of Science e Scopus)
+consolidado <- mergeDbSources(dados_wos,
+                               dados_scopus,
+                               remove.duplicated = TRUE)
+
+
+consolidado <- consolidado %>% 
+  dplyr::filter(LA == 'ENGLISH',
+                DT == 'ARTICLE')
+
+```
+
+```{r, results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center'}
+
+# Montando o Mapa Temático:
+mapa_tematico <- thematicMap(consolidado,
+                             field = 'DE', 
+                             n = 250, 
+                             minfreq = 5,
+                             stemming = FALSE, 
+                             size = 0.5,
+                             n.labels = 3, 
+                             repel = TRUE) 
+
+mapa_tematico <- mapa_tematico$map 
+
+# Gerando o Gráfico:
+bibliometrica_temas <- plotly::ggplotly(mapa_tematico)
+
+widgetframe::frameWidget(bibliometrica_temas, width = '100%', height = '100%')
+
+```
 
 ---
 class: inverse, middle, center
