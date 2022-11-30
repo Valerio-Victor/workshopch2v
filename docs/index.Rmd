@@ -68,7 +68,7 @@ class: inverse, middle, center
 name: analise_competitividade
 
 
-# VISÃO GERAL
+# ANÁLISE DE COMPETITIVIDADE
 
 
 ---
@@ -81,7 +81,7 @@ class: inverse, middle, center
 name: estudo_caso
 
 
-# VISÃO GERAL
+# ESTUDO DE CASO
 
 
 ---
