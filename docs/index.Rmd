@@ -210,6 +210,23 @@ widgetframe::frameWidget(lcoh_plot, width = '100%', height = '100%')
 <div style="text-align: justify">
 # ANÁLISE DE COMPETITIVIDADE
 
+
+- A principal dificuldade em produzir hidrogênio verde de maneira competitiva 
+está, não só em se reduzir os valores dos investimentos necessários (CAPEX), como 
+também os valores de Operação e Manutenção (OPEX);
+
+- Por sua vez, os custos de operação e manutenção são impactatos, em grande 
+medida, pelo preço da energia;
+
+
+- Portanto, ao assumir que as reduções de custos não estarão relacionadas a grandes 
+avanços nas tecnologias fotovoltaica e eólica, é necessário pensar em arranjos 
+institucionais de incentivo. 
+
+---
+<div style="text-align: justify">
+# ANÁLISE DE COMPETITIVIDADE
+
 Custo da Produção de Energia (Eletrólise):
 
 ```{r, results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center'}
@@ -262,7 +279,6 @@ widgetframe::frameWidget(lcoe_plot, width = '100%', height = '100%')
 
 
 ```
-
 
 ---
 class: inverse, middle, center
