@@ -44,19 +44,10 @@ class: inverse
 - [**.white[VISÃO GERAL]**](#visao_geral)
 
 
-- [**.white[MERCADO FOTOVOLTAICO NO BRASIL]**](#mercado_fotovoltaico_brasil)
+- [**.white[ANÁLISE DE COMPETITIVIDADE]**](#analise_competitividade)
 
 
-- [**.white[ASPECTOS REGULATÓRIOS]**](#aspectos_regulatorios)
-
-
-- [**.white[MATEMÁTICA FINANCEIRA]**](#matematica_financeira)
-
-
-- [**.white[ANÁLISE DE INVESTIMENTOS]**](#analise_investimento)
-
-
-- [**.white[ESTUDOS DE CASOS]**](#estudos_casos)
+- [**.white[ESTUDO DE CASO - UNIFEI]**](#estudo_caso)
 
 
 ---
@@ -70,3 +61,29 @@ name: visao_geral
 ---
 <div style="text-align: justify">
 # VISÃO GERAL
+
+
+---
+class: inverse, middle, center
+name: analise_competitividade
+
+
+# VISÃO GERAL
+
+
+---
+<div style="text-align: justify">
+# ANÁLISE DE COMPETITIVIDADE
+
+
+---
+class: inverse, middle, center
+name: estudo_caso
+
+
+# VISÃO GERAL
+
+
+---
+<div style="text-align: justify">
+# ESTUDO DE CASO
