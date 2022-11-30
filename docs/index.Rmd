@@ -64,6 +64,33 @@ name: visao_geral
 <div style="text-align: justify">
 # VISÃO GERAL
 
+- A indústria do hidrogênio pode ser dividida em **4 partes**: 
+
+  - **Produção**: Apenas 4% do hidrogênio é produzido via eletrólise (78% tem por 
+  fonte a indústria de petróleo e gás natural). Contudo, ao se concentrar em Hidrogênio
+  verde, a eletrólise vigora como principal fonte de produção;
+  
+  - **Armazenamento**: Parte mais desafiadora e urgente de aprimoramento (vai garantir 
+  expansão dos usos do hidrogênio);
+  
+  
+---
+<div style="text-align: justify">
+# VISÃO GERAL
+
+- A indústria do hidrogênio pode ser dividida em **4 partes**: 
+
+  - **Transporte**: Parte mais dependente de insfraestrutura e, portanto, de 
+  participação pública;
+  
+  - **Aplicações (Mercado)**: Atualmente, aproximadamente 51% do consumo de hidrogênio
+  está associado a indústria da amônia, 31% metanol, 10% refino de petróleo e as 
+  demais aplicações representam 8% (produção de energia).
+  
+  
+  
+  
+
 
 ---
 class: inverse, middle, center
